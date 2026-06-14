@@ -1,0 +1,197 @@
+{
+  "upbjjList": ["Jakarta", "Surabaya", "Makassar", "Padang", "Denpasar"],
+  "kategoriList": ["MK Wajib", "MK Pilihan", "Praktikum", "Problem-Based"],
+  "pengirimanList": [
+    { "kode": "REG", "nama": "Reguler (3-5 hari)" },
+    { "kode": "EXP", "nama": "Ekspres (1-2 hari)" }
+  ],
+  "paket": [
+    {
+      "kode": "PAKET-UT-001",
+      "nama": "PAKET IPS Dasar",
+      "isi": ["EKMA4116", "EKMA4115"],
+      "harga": 120000
+    },
+    {
+      "kode": "PAKET-UT-002",
+      "nama": "PAKET IPA Dasar",
+      "isi": ["BIOL4201", "FISIP4001"],
+      "harga": 140000
+    }
+  ],
+  "stok": [
+    {
+      "kode": "EKMA4116",
+      "judul": "Pengantar Manajemen",
+      "kategori": "MK Wajib",
+      "upbjj": "Jakarta",
+      "lokasiRak": "R1-A3",
+      "harga": 65000,
+      "qty": 28,
+      "safety": 20,
+      "catatanHTML": "<em>Edisi 2024, cetak ulang</em>"
+    },
+    {
+      "kode": "EKMA4115",
+      "judul": "Pengantar Akuntansi",
+      "kategori": "MK Wajib",
+      "upbjj": "Jakarta",
+      "lokasiRak": "R1-A4",
+      "harga": 60000,
+      "qty": 7,
+      "safety": 15,
+      "catatanHTML": "<strong>Cover baru</strong>"
+    },
+    {
+      "kode": "BIOL4201",
+      "judul": "Biologi Umum (Praktikum)",
+      "kategori": "Praktikum",
+      "upbjj": "Surabaya",
+      "lokasiRak": "R3-B2",
+      "harga": 80000,
+      "qty": 12,
+      "safety": 10,
+      "catatanHTML": "Butuh <u>pendingin</u> untuk kit basah"
+    },
+    {
+      "kode": "FISIP4001",
+      "judul": "Dasar-Dasar Sosiologi",
+      "kategori": "MK Pilihan",
+      "upbjj": "Makassar",
+      "lokasiRak": "R2-C1",
+      "harga": 55000,
+      "qty": 2,
+      "safety": 8,
+      "catatanHTML": "Stok <i>menipis</i>, prioritaskan reorder"
+    },
+
+    {
+      "kode": "EKMA4201",
+      "judul": "Manajemen Sumber Daya Manusia",
+      "kategori": "MK Pilihan",
+      "upbjj": "Jakarta",
+      "lokasiRak": "R1-A1",
+      "harga": 70000,
+      "qty": 0,
+      "safety": 5,
+      "catatanHTML": "Kosong • jadwalkan pengadaan bulan ini"
+    },
+    {
+      "kode": "EKMA4303",
+      "judul": "Kewirausahaan & Inovasi",
+      "kategori": "Problem-Based",
+      "upbjj": "Padang",
+      "lokasiRak": "R4-D1",
+      "harga": 90000,
+      "qty": 4,
+      "safety": 6,
+      "catatanHTML": "Perlu restock untuk batch berikutnya"
+    },
+    {
+      "kode": "BIOL4310",
+      "judul": "Genetika Dasar (Praktikum)",
+      "kategori": "Praktikum",
+      "upbjj": "Denpasar",
+      "lokasiRak": "R5-E2",
+      "harga": 85000,
+      "qty": 9,
+      "safety": 8,
+      "catatanHTML": "Stok aman, QC bahan simulasi ok"
+    },
+    {
+      "kode": "FISIP4102",
+      "judul": "Metodologi Penelitian Sosial",
+      "kategori": "Problem-Based",
+      "upbjj": "Makassar",
+      "lokasiRak": "R2-C4",
+      "harga": 78000,
+      "qty": 16,
+      "safety": 10,
+      "catatanHTML": "Stok aman • cetak ulang tersedia"
+    },
+    {
+      "kode": "EKMA4055",
+      "judul": "Ekonomi Dasar",
+      "kategori": "MK Wajib",
+      "upbjj": "Surabaya",
+      "lokasiRak": "R3-B5",
+      "harga": 64000,
+      "qty": 5,
+      "safety": 12,
+      "catatanHTML": "Menipis • pantau penjualan menjelang UT"
+    },
+    {
+      "kode": "BIOL4022",
+      "judul": "Kimia Lingkungan (Problem-Based)",
+      "kategori": "Problem-Based",
+      "upbjj": "Padang",
+      "lokasiRak": "R4-D3",
+      "harga": 88000,
+      "qty": 20,
+      "safety": 15,
+      "catatanHTML": "Aman • bahan stabil untuk produksi lanjutan"
+    }
+  ],
+  "tracking": [
+    {
+      "DO2025-0001": {
+        "nim": "123456789",
+        "nama": "Rina Wulandari",
+        "status": "Dalam Perjalanan",
+        "ekspedisi": "JNE",
+        "tanggalKirim": "2025-08-25",
+        "paket": "PAKET-UT-001",
+        "total": 120000,
+        "perjalanan": [
+          { "waktu": "2025-08-25 10:12:20", "keterangan": "Penerimaan di Loket: TANGSEL" },
+          { "waktu": "2025-08-25 16:20:55", "keterangan": "Diproses di Gudang Sortir" },
+          { "waktu": "2025-08-26 09:05:12", "keterangan": "Tiba di Hub Distribusi" }
+        ]
+      }
+    },
+    {
+      "DO2025-0002": {
+        "nim": "987654321",
+        "nama": "Bima Ramadhan",
+        "status": "Dalam Perjalanan",
+        "ekspedisi": "JNE",
+        "tanggalKirim": "2025-08-26",
+        "paket": "PAKET-UT-002",
+        "total": 140000,
+        "perjalanan": [
+          { "waktu": "2025-08-26 11:01:30", "keterangan": "Penerimaan di Loket: SURABAYA" },
+          { "waktu": "2025-08-26 18:44:09", "keterangan": "Kurir mengambil paket" }
+        ]
+      }
+    },
+    {
+      "DO2025-0003": {
+        "nim": "135792468",
+        "nama": "Siti Nur Aisyah",
+        "status": "Dalam Perjalanan",
+        "ekspedisi": "REG (3-5 hari)",
+        "tanggalKirim": "2025-08-27",
+        "paket": "PAKET-UT-001",
+        "total": 120000,
+        "perjalanan": [
+          { "waktu": "2025-08-27 09:20:10", "keterangan": "DO diproses oleh admin" },
+          { "waktu": "2025-08-27 13:55:44", "keterangan": "Tiba di pusat pengiriman regional" }
+        ]
+      }
+    },
+    {
+      "DO2025-0004": {
+        "nim": "246801357",
+        "nama": "Raka Wicaksono",
+        "status": "Dalam Perjalanan",
+        "ekspedisi": "EXP (1-2 hari)",
+        "tanggalKirim": "2025-08-28",
+        "paket": "PAKET-UT-002",
+        "total": 140000,
+        "perjalanan": [
+          { "waktu": "2025-08-28 08:11:03", "keterangan": "Paket dikemas dan siap kirim" }
+        ]
+      }
+    }
+  ]
+}
