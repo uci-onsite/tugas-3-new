@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas 3 - Web Interaktif</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand">
+          <img class="brand-mark" src="./assets/Logo_UT.png" alt="Logo UT" />
+          <div>
+            <div class="brand-title">UNIVERSITAS TERBUKA</div>
+            <div class="brand-subtitle">Stok & Tracking Bahan Ajar</div>
+          </div>
+        </div>
+
+        <nav class="nav">
+          <a class="nav-link" href="./stok-bahan-ajar.html" data-active="stok">Stok Bahan Ajar</a>
+          <a class="nav-link" href="./tracking-do.html" data-active="tracking">Tracking DO</a>
+        </nav>
+      </header>
+
+      <main class="content">
+        <section class="hero">
+          <h1 class="hero-title">Selamat datang!</h1>
+          <p class="hero-desc">
+            Website ini membantu Anda mengelola <b>stok bahan ajar</b> dan melacak <b>Delivery Order (DO)</b>.
+            Di halaman <b>Stok Bahan Ajar</b> tersedia <b>filter (Memfilter), sort (Mengurutkan), status (Aman-Tidak)</b>, serta <b>tambah/edit/hapus</b> data melalui modal.
+            Di halaman <b>Tracking DO</b> Anda bisa melakukan pencarian dengan <b>Enter</b> dan melihat <b>timeline perjalanan</b>.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="./stok-bahan-ajar.html">Mulai Kelola Stok</a>
+            <a class="btn btn-warning" href="./tracking-do.html">Lacak Delivery Order</a>
+          </div>
+
+          <div class="hero-kpis" aria-label="Ringkasan fitur">
+            <div class="kpi">
+              <div class="kpi-title">Filter & Urutkan</div>
+              <div class="kpi-value">UT-Daerah • Kategori • Safety</div>
+            </div>
+            <div class="kpi">
+              <div class="kpi-title">Modul Manual</div>
+              <div class="kpi-value">Tambah • Edit • Hapus</div>
+            </div>
+            <div class="kpi">
+              <div class="kpi-title">Timeline DO</div>
+              <div class="kpi-value">Lihat perjalanan modul</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2 class="card-title">Panduan Singkat</h2>
+          <ul class="list">
+            <li>
+              <b>Stok Bahan Ajar:</b> lakukan filter berdasarkan UPBJI & Kategori, safety stock, lalu sort/status. Setelah itu, pilih  
+               baris untuk menampilkan <b>catatan</b>.
+              Tambah/Edit/Delete memakai <b>Modul Manual</b>.
+            </li>
+            <li>
+              <b>Tracking DO:</b> cari dengan menekan tombol/cari (Enter) pada input.
+              Untuk DO baru, gunakan tombol tambah dan isi NIM + Nama + Sequence.
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <footer class="footer">
+        Hak cipta &copy; 2026 • Semua hak dilindungi undang-undang.
+      </footer>
+    </div>
+
+    <script type="module" src="./js/app.js"></script>
+  </body>
+</html>
